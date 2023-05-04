@@ -1,0 +1,35 @@
+.container-3 {
+  height: 750px;
+  background-color: rgb(207, 206, 206);
+}
+
+.past-events {
+  margin-left: 180px;
+  display: block;
+}
+
+.heading-3 {
+  text-align: center;
+  font-size: 100px;
+  padding: 20px;
+  font-family: Bruno Ace SC;
+  background-color: rgb(207, 206, 206);
+}
+
+.register-button {
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 650px;
+  padding: 30px 70px 30px 70px;
+  font-size: 30px;
+  background-color: rgba(128, 128, 128, 0.779);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: box-shadow 0.15s;
+}
+
+.register-button:active {
+  margin-top: 90px;
+  margin-left: 640px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}

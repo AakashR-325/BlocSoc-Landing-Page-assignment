@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-1 {
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.top-bar-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+}
+
+.top-link {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  transition: text-decoration-line 0.15s;
+}
+
+.top-link:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.top-bar-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.blocsoc-logo {
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+.acm-logo {
+  height: 30px;
+}
